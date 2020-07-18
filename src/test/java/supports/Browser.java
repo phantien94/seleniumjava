@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -91,4 +92,20 @@ public class Browser {
         if(find(how, locator).isSelected())
             click(how, locator);
     }
+
+    public static void select (How how, String locator, int byIndex){
+        Select dropDown = new Select(find(how,locator));
+        dropDown.selectByIndex(byIndex);
+    }
+
+    public static void select (How how, String locator, String byValue){
+        Select dropDown = new Select(find(how,locator));
+        dropDown.selectByValue(byValue);
+    }
+
+    public static void selectByVisibleText (How how,String locator, String visibleText){
+        Select dropDown = new Select(find(how,locator));
+        dropDown.selectByVisibleText(visibleText);
+    }
+
 }
