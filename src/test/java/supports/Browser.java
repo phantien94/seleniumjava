@@ -66,6 +66,10 @@ public class Browser {
 
     }
 
+    public static void backToPreviousPage(){
+        driver.navigate().back();
+    }
+
     public static WebElement find(How by, String locator){
        return driver.findElement(by.buildBy(locator));
     }
