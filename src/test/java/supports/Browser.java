@@ -108,4 +108,21 @@ public class Browser {
         dropDown.selectByVisibleText(visibleText);
     }
 
+    public static void acceptAlert(){
+        driver.switchTo().alert().accept();
+    }
+
+    public static void dismissAlert(){
+        driver.switchTo().alert().dismiss();
+    }
+
+    public static void acceptAlert(String withText){
+        driver.switchTo().alert().sendKeys(withText);
+        driver.switchTo().alert().accept();
+    }
+
+    public static String getText(How how, String locator){
+        return find(how, locator).getText();
+    }
+
 }
