@@ -1,0 +1,13 @@
+<suite name="demo">
+    <parameter name="browser" value="chrome"/>
+    <test name="run on ie">
+        <groups>
+            <run>
+                <include name="ie"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="testcases"/>
+        </packages>
+    </test>
+</suite>

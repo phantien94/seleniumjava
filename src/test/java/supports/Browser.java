@@ -10,13 +10,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Browser {
     private static WebDriver driver;
+
+    private static final int TIME_OUT_IN_SECONDS = 60;
+
+    public static WebDriverWait wait;
+
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
     public static WebDriver openBrowsers(String name){
         switch (name.toLowerCase()) {
             case "chrome":
@@ -31,6 +42,7 @@ public class Browser {
             default:
                 throw new IllegalArgumentException("The browser " + name + " does not support");
         }
+        wait = new WebDriverWait(getDriver(),TIME_OUT_IN_SECONDS);
         return driver;
     }
 
@@ -76,11 +88,21 @@ public class Browser {
     }
 
     public static void fill (How by, String locator, String withText){
+        find(by, locator).clear();
         find(by, locator).sendKeys(withText);
+    }
+
+    public static void fill (By by, String withText){
+        driver.findElement(by).clear();
+        driver.findElement(by).sendKeys(withText);
     }
 
     public static void click (How by, String locator){
         find(by, locator).click();
+    }
+
+    public static void click (By by){
+        driver.findElement(by).click();
     }
 
     public static void check (How how, String locator){
@@ -122,7 +144,21 @@ public class Browser {
     }
 
     public static String getText(How how, String locator){
-        return find(how, locator).getText();
+        return wait
+                .until(
+                        ExpectedConditions
+                                .visibilityOfElementLocated(how.buildBy(locator))
+                )
+                .getText();
+    }
+
+    public static String getText(By by){
+        return wait
+                .until(
+                        ExpectedConditions
+                                .visibilityOfElementLocated(by)
+                )
+                .getText();
     }
 
 }

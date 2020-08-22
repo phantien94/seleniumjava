@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 38.434 s <<< FAILURE! - in TestSuite
+testcases.BodyMassIndexTest.metricUnit  Time elapsed: 3.953 s  <<< FAILURE!
+java.lang.AssertionError: expected [BMI = 20.1 kg/m2   (Normal)] but found [BMI = 25.9 kg/m2   (Overweight)]
+	at testcases.BodyMassIndexTest.metricUnit(BodyMassIndexTest.java:26)
+
+testcases.BodyMassIndexTest.metricUnit  Time elapsed: 2.783 s  <<< FAILURE!
+java.lang.AssertionError: expected [BMI = 20.1 kg/m2   (Normal)] but found [BMI = 25.9 kg/m2   (Overweight)]
+	at testcases.BodyMassIndexTest.metricUnit(BodyMassIndexTest.java:26)
+
+testcases.BodyMassIndexTest.metricUnit  Time elapsed: 8.459 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+Unable to get element text
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TIEN-PC', ip: '192.168.1.125', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '13.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:2873/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 23a70e6d-8819-45cb-adfc-ba504bbea2cc
+	at testcases.BodyMassIndexTest.metricUnit(BodyMassIndexTest.java:26)
+

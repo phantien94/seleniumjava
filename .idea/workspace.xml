@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -32,20 +35,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AK27\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginTest">
-    <configuration name="Browser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="supports.Browser" />
+  <component name="RunManager" selected="TestNG.D:/AK27/src/test/java/configuration/sample-testplan.xml">
+    <configuration name="BodyMassIndexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testcases.BodyMassIndexTest" />
       <module name="AK27" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="supports.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChromeMobile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.ChromeMobile" />
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testcases.locateElement.WaitTest" />
       <module name="AK27" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="browsers.*" />
+          <option name="PATTERN" value="testcases.locateElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,64 +69,126 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locateElement.LoginTest" />
+    <configuration name="BodyMassIndexTest.metricUnit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AK27" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="locateElement.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BodyMassIndexTest" />
+      <option name="METHOD_NAME" value="metricUnit" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenChrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.OpenChrome" />
+    <configuration name="BodyMassIndexTest.metricUnit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AK27" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="browsers.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BodyMassIndexTest" />
+      <option name="METHOD_NAME" value="metricUnit" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenCoccoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.OpenCoccoc" />
+    <configuration name="BodyMassIndexTest.metricUnit" type="TestNG">
       <module name="AK27" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="browsers.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BodyMassIndexTest" />
+      <option name="METHOD_NAME" value="metricUnit" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/AK27/src/test/java/configuration/bmi-testplan.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AK27" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/configuration/bmi-testplan.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/AK27/src/test/java/configuration/sample-testplan.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AK27" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/configuration/sample-testplan.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OpenChrome" />
-      <item itemvalue="Application.ChromeMobile" />
-      <item itemvalue="Application.Browser" />
-      <item itemvalue="Application.OpenCoccoc" />
-      <item itemvalue="Application.LoginTest" />
+      <item itemvalue="Application.WaitTest" />
+      <item itemvalue="Application.BodyMassIndexTest" />
+      <item itemvalue="TestNG.BodyMassIndexTest.metricUnit" />
+      <item itemvalue="TestNG.D:/AK27/src/test/java/configuration/bmi-testplan.xml" />
+      <item itemvalue="TestNG.D:/AK27/src/test/java/configuration/sample-testplan.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoginTest" />
-        <item itemvalue="Application.OpenCoccoc" />
-        <item itemvalue="Application.Browser" />
-        <item itemvalue="Application.OpenChrome" />
-        <item itemvalue="Application.ChromeMobile" />
+        <item itemvalue="TestNG.D:/AK27/src/test/java/configuration/sample-testplan.xml" />
+        <item itemvalue="TestNG.D:/AK27/src/test/java/configuration/bmi-testplan.xml" />
+        <item itemvalue="TestNG.BodyMassIndexTest.metricUnit" />
+        <item itemvalue="TestNG.BodyMassIndexTest.metricUnit" />
+        <item itemvalue="Application.BodyMassIndexTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Tien\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -136,45 +201,85 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Notifications" timestamp="1595041009265">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="26" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1595041009265" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597464167224">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1597464167224" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1596863898930">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1596863898930" />
     <state x="406" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1592017109613">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="406" y="57" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.738@0.0.1366.738" timestamp="1592017109613" />
+    <state x="454" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597460159278">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="454" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1597460159278" />
+    <state x="399" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1595040543919">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="399" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.738@0.0.1366.738" timestamp="1595040543919" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1592020221923">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592020221923" />
-    <state width="661" height="177" key="GridCell.Tab.0.bottom" timestamp="1593231398850">
+    <state width="1322" height="249" key="GridCell.Tab.0.bottom" timestamp="1598065762792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593231398850" />
-    <state width="661" height="177" key="GridCell.Tab.0.center" timestamp="1593231398849">
+    <state width="1322" height="249" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598065762792" />
+    <state width="1322" height="249" key="GridCell.Tab.0.center" timestamp="1598065762792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593231398849" />
-    <state width="661" height="177" key="GridCell.Tab.0.left" timestamp="1593231398849">
+    <state width="1322" height="249" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598065762792" />
+    <state width="1322" height="249" key="GridCell.Tab.0.left" timestamp="1598065762792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593231398849" />
-    <state width="661" height="177" key="GridCell.Tab.0.right" timestamp="1593231398849">
+    <state width="1322" height="249" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598065762792" />
+    <state width="1322" height="249" key="GridCell.Tab.0.right" timestamp="1598065762792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593231398849" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1592620407413">
+    <state width="1322" height="249" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598065762792" />
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom" timestamp="1596258690545">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592620407413" />
-    <state x="378" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1593223248525">
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596258690545" />
+    <state width="1322" height="221" key="GridCell.Tab.1.center" timestamp="1596258690545">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="378" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1593223248525" />
+    <state width="1322" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1596258690545" />
+    <state width="1322" height="221" key="GridCell.Tab.1.left" timestamp="1596258690545">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1596258690545" />
+    <state width="1322" height="221" key="GridCell.Tab.1.right" timestamp="1596258690545">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1596258690545" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1598065799073">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598065799073" />
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1598062236978">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1598062236978" />
     <state x="65" y="0" key="new project wizard" timestamp="1592020229915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1592020229915" />
-    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1593231265041">
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1597465703586">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1593231265041" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1597465703586" />
+    <state x="339" y="159" key="run.anything.popup" timestamp="1596860250607">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1596860250607" />
   </component>
 </project>
